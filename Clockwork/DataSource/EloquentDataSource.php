@@ -20,6 +20,11 @@ class EloquentDataSource extends DataSource
 	protected $databaseManager;
 
 	/**
+	 * Event dispatcher
+	 */
+	protected $eventDispatcher;
+
+	/**
 	 * Internal array where queries are stored
 	 */
 	protected $queries = [];
